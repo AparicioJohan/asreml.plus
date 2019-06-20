@@ -1,2 +1,2 @@
-# asreml.Plus
+# asreml.plus
 Additional functions ASreml-R
