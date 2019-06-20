@@ -101,7 +101,7 @@ plot.spatial.asreml <-
   
   colors = topo.colors(100)
   
-  main.legends <- c('Raw data', 'Fitted data', 'Residuals',"Effect Design"  ,"Genotypic BLUPs", 'Histogram')
+  main.legends <- c('Raw data', 'Fitted data', 'Residuals + nugget',"Effect Design"  ,"Genotypic BLUPs", 'Histogram')
   if(all.in.one) {
     op <- par(mfrow = c(2,3), oma = c(ifelse(annotated, 12, 2), 1, 3, 2), mar = c(2.7, 4, 2.5, 2.5), mgp = c(1.7, 0.5, 0))                
   } else {
